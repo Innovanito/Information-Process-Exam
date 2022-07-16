@@ -11,16 +11,16 @@
 * 속성: 테이블에서 열,  차수 = 속성의 수
 
 # 데이터 언어
-* DDL(Data Define Language) 정의 -> 데이터 속성을 추가 변경 삭제하는 기능
+* DDL(Data Define Language) 정의 -> 데이터 속성을 추가 변경 삭제하는 기능  
 -create, alter ,drop(view, table,DB 완전 삭제)
-* DML (Data Manupulation Language)조작 -> 튜플(행)의 데이터 값을 바꿈
--select, insert, delete, update
-SELECT(DISTINCT) 뽑을 것 FROM 어디서 WHERE 조건
-UPDATE 테이블 SET 열=변경할 값 WHERE 조건
-* DCL(Data Control Language) 제어 -> 권한줌, 권한 회수, 이전 버전, 다음 버전 ,
--commit, rollback, grant, revoke
-GRANT UPDATE ~ ON ~ TO : 시스탬의 갱신 권한 부여하는 문법
-Revoke select ~ on ~from ~: 검색 연산을 회수하는 병령
+* DML (Data Manupulation Language)조작 -> 튜플(행)의 데이터 값을 바꿈  
+-select, insert, delete, update  
+SELECT(DISTINCT) 뽑을 것 FROM 어디서 WHERE 조건  
+UPDATE 테이블 SET 열=변경할 값 WHERE 조건  
+* DCL(Data Control Language) 제어 -> 권한줌, 권한 회수, 이전 버전, 다음 버전  
+-commit, rollback, grant, revoke  
+GRANT UPDATE ~ ON ~ TO : 시스탬의 갱신 권한 부여하는 문법  
+Revoke select ~ on ~from ~: 검색 연산을 회수하는 병령  
 
 # 관계대수
 관계형 DB에서 원하는 정보 검색하기 위해 기술하는 절차적인 언어
